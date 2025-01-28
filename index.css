@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+.btn-hover {
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-hover:hover:not(:disabled) {
+  transform: scale(1.02);
+}
+
+.game-cell {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  background-color: rgb(128, 157, 168);
+}
